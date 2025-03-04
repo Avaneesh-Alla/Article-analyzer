@@ -67,7 +67,7 @@ streamlit run main.py
 
 ## Acknowledgement
 
-1. LangChain for LLM orchestration
-2. OpenAI for embedding models and GPT-4
-3. FAISS for efficient similarity search
-4. Streamlit for intuitive web interface
+1. **LangChain** for LLM orchestration
+2. **OpenAI** for embedding models and GPT-4
+3. **FAISS** for efficient similarity search
+4. **Streamlit** for intuitive web interface
