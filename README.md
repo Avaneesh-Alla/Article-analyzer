@@ -41,27 +41,27 @@ echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 7. python-dotenv
 
 ## Usage
-1. Start the application
+#### Start the application
 ```bash
 streamlit run main.py
 ```
-2. In the sidebar:
-   a. Enter up to 3 valid URLs
-   b. Click "Process URLs"
-3. Once processing completes:
-   a. Enter your question in the main input field
-   b. Receive AI-generated answers with source references
+#### In the sidebar:
+1. Enter up to 3 valid URLs
+2. Click "Process URLs"
+#### Once processing completes:
+1. Enter your question in the main input field
+2. Receive AI-generated answers with source references
 
 ## How it works
-### Content Ingestion:
+#### Content Ingestion:
 1. URL content is loaded using UnstructuredURLLoader
 2. Text is split into chunks using recursive character splitting
 
-### Vector Processing:
+#### Vector Processing:
 1. OpenAI embeddings convert text to vectors
 2. FAISS stores vectors for efficient similarity search
 
-### Query Handling:
+#### Query Handling:
 1. Semantic search finds relevant content chunks
 2. GPT-4 generates answers based on context
 
