@@ -23,6 +23,19 @@ cd article-analysis-tool
 ```
 
 2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up environment variables:
+```bash
+echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
+```
+## Requirements
+1. Python 3.8+
+2. Streamlit
+3. LangChain
+4. FAISS (CPU)
+5. OpenAI
+6. Unstructured
+7. python-dotenv
