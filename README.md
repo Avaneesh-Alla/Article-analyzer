@@ -20,3 +20,9 @@ A generative AI-powered tool for analyzing and questioning content from online a
 ```bash
 git clone https://github.com/yourusername/article-analysis-tool.git
 cd article-analysis-tool
+```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
