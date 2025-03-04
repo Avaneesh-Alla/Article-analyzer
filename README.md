@@ -53,15 +53,15 @@ streamlit run main.py
    b. Receive AI-generated answers with source references
 
 ## How it works
-# Content Ingestion:
+### Content Ingestion:
 1. URL content is loaded using UnstructuredURLLoader
 2. Text is split into chunks using recursive character splitting
 
-# Vector Processing:
+### Vector Processing:
 1. OpenAI embeddings convert text to vectors
 2. FAISS stores vectors for efficient similarity search
 
-# Query Handling:
+### Query Handling:
 1. Semantic search finds relevant content chunks
 2. GPT-4 generates answers based on context
 
